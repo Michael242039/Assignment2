@@ -1,0 +1,121 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{170, 214}, {97, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "B9E37EFE-C935-4A3B-8C88-668003F42457",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "time falling:",
+          "name" : "intruction",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{195, 254}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "9F22D2BD-3B8B-4466-8A54-E772DA62F6FC",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "height: 100m",
+          "name" : "height_label",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{412, 0}, {100, 100}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "image_name" : "iob:man_256",
+          "class" : "ImageView",
+          "name" : "man",
+          "uuid" : "9872AE90-7ED9-4726-981B-08D75988C564"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{267, 214}, {103, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "F7194D45-8043-40E6-864A-CEFE4B51CF04",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "seconds_input",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{239, 294}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_button_pressed",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "calculate",
+          "uuid" : "C39A3DD8-D5A4-4586-9E92-B2032B41A1B5",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{220, 334}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "8CBDD9A7-0EED-45E6-906F-010C7C4C03C0",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "0.0s",
+          "name" : "seconds_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
